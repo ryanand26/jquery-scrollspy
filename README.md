@@ -1,5 +1,13 @@
 # jquery-scrollspy
 
+Update to jquery-scrollspy to use plugin architecture, adding a destroy function.
+
+Usage:
+
+        $('#sticky-navigation').scrollspy("destroy");
+
+---
+
 An adaptation of the Mootools Scrollspy ( http://davidwalsh.name/mootools-scrollspy ) plugin for jQuery
 
 (c) 2011 Samuel Alexander (sxalexander@gmail.com)
